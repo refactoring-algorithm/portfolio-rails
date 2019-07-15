@@ -1,6 +1,6 @@
-# Portfolio
+# A N I M E : R V
 
-Currently in production.
+Share the reviews you saw the anime.
 
 ## Description
 
@@ -33,4 +33,5 @@ Currently in production.
 ## Author
  
 Akira Kimura
+
 mail to: girlsbandparty1th@mail.com
