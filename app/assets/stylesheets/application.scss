@@ -16,3 +16,71 @@
 
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+
+@font-face {
+	font-family: '8bit';
+	src: font-url('02.ttf');
+}
+
+@font-face {
+	font-family: 'default';
+	src: font-url('03.otf');
+}
+
+* {
+    color: white;
+    text-decoration: none;
+    font-family: 'default';
+    margin: 0;
+    padding: 0;
+    a {
+        color: white;
+    }
+    a:hover {
+        color: white;
+    }
+}
+
+li {
+    list-style: none;
+}
+.navbar {
+    background-color: rgb(255, 42, 42);
+    box-shadow: 1px 1px 5px black;
+}
+
+.navbar-brand {
+    border-radius: 10px;
+    border: 3px white solid;
+    width: 200px;
+    text-align: center;
+}
+
+.nav-item {
+    text-shadow: 3px 3px 1px rgb(182, 182, 182);
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #a8a8a8, 0px 2px 0px #5a5a5a, 0px 3px 0px #3f3f3f;
+    border-left: white 1.5px solid;
+}
+
+.nav-item:nth-last-child(1){
+    border-right: white 1.5px solid;
+}
+
+.nav-link:hover {
+    text-shadow: none;
+}
+
+.nav-link:active {
+    top: 4px;
+    text-shadow: none;
+  }
